@@ -1,0 +1,322 @@
+.nav-link{
+    color:#000;
+}
+.navbar .nav-item .nav-link.active{
+    color:pink;
+}
+
+
+.navbar-brand i{
+    color:#46c2ca;
+}
+.nav-color a{
+   
+}
+.main-menu{
+    background:white;
+    padding:20px 0;
+}
+.nav a{
+    text-transform:uppercase;
+    font-size:14px;
+}
+
+.section-home{
+    padding:80px 0;
+}
+
+
+/* Hero */
+.section-hero{
+    background-image:url(../images/restaurant-red-beans-coffee.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    color:#fff;
+}
+.section-hero .hero-items{
+    padding-top:80px;
+}
+.section-hero .hero-content{
+    margin-bottom:80px;
+}
+.section-hero .hero-content h2{
+    font-size:36px;
+}
+.section-hero .hero-content p{
+    margin:30px 0;
+}
+.btn-pink{
+    background-color:#f15b72;
+    text-transform:uppercase;
+    font-size:14px;
+    padding:10px 25px;
+    font-weight:bold;
+   
+}
+.btn-pink:hover{
+    background-color:#f03653;
+    cursor:pointer;
+}
+.hero-form{
+    background:#fff;
+    color:#000;
+    padding:25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.hero-form h3{
+    background-color:#f15b72;
+    color:#fff;
+    text-transform:uppercase;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:25px;
+    padding:25px;
+    text-align: center
+}
+.hero-form input{
+    margin-bottom:15px;
+    padding: 5px 10px;
+    width:100%;
+    font-size:14px;
+    color:#909090;
+    border: 1px solid #eae6e6;
+}
+.btn-blue{
+       background-color:#46c2ca;
+    text-transform:uppercase;
+    font-size:14px;
+    padding:10px 25px;
+    font-weight:bold;
+}
+.btn-blue:hover{
+     background-color:#17c8d3;
+    cursor:pointer;
+}
+.btn-form{
+    text-align:center;
+    margin-bottom:13px;
+}
+/* Blog */
+.section-blog {
+    padding:100px 0;
+}
+.first-blog{
+    margin-bottom:100px;
+}
+.blog-image img{
+    width:100%;
+}
+.blog-content h2{
+    margin-bottom:40px;
+}
+.blog-content p{
+    color:#b2aeae;
+}
+.blog-content h2 .blue{
+    background:#17c8d3;
+    padding:0 10px;
+    color:#fff;
+}
+.blog-content h2 .pink{
+    background:#f15b72;
+    padding:0 10px;
+    color:#fff;
+}
+/* service */
+.section-services{
+    background:#f5f5f5;
+    padding:80px 0;
+}
+ .main-heading{
+    text-align:center;
+    margin-bottom:70px;
+}
+.media img{
+    width:60px;
+}
+.service-contents{
+    margin-bottom:30px;
+}
+ .main-heading h2{
+    font-weight:bold;
+    color:#6f6f6f;
+    margin-bottom:20px;
+    position:relative;
+}
+ .main-heading h2:after{
+    content:'';
+    position:absolute;
+    height:4px;
+    width:60px;
+    background:#17c8d3;
+    bottom:-20px;
+    left:48%;
+}
+.main-heading p{
+    margin-top:35px;
+}
+.media p{
+    font-size:14px;
+    margin-top:10px;
+    color:#807d7d;
+}
+
+/* Business */
+.section-start-business{
+    background-image:url(../images/people-coffee-tea-meeting.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    color:#fff;
+    padding:80px 0;
+}
+.business-contents{
+    text-align:center;
+    
+}
+.business-contents h2{
+    font-size:18px;
+}
+.business-contents h3{
+    margin:40px 0;
+    font-size:24px;
+}
+/* Team */
+.section-team{
+    padding:80px 0;
+}
+.team-image img{
+    width:100%;
+    border-radius:50%;
+}
+.team-items{
+    padding: 0 100px;
+}
+.team-contents{
+    padding:60px;
+}
+
+.header-team p{
+    margin-top:35px;
+}
+.team-member-name{
+    font-size:16px;
+    font-weight:bold;
+    color:#939191;
+    margin:20px 0 5px 0;
+}
+.member-position{
+    color:#aca6a6;
+}
+
+/* Cost */
+.section-cost{
+    padding:80px 0;
+    background:#f5f5f5;
+}
+.table-items{
+    border-radius:8px;
+    overflow:hidden;
+}
+.table-header{
+    background:#d94a60;
+    color:#fff;
+    padding:20px;
+}
+.table-footer{
+    padding:30px;
+    background:#fff;
+    
+}
+.table-items .btn-pink{
+    border-radius:30px;
+    padding:10px 30px;
+    margin-top:10px;
+}
+.table-items .table-footer li{
+    margin-bottom:20px;
+}
+ .table-items .table-footer .border{
+    border:1px solid red;
+}
+
+/* About */
+.section-about{
+    background-image:url(../images/about.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding:80px 0;
+    color:#fff;
+    position:center;
+}
+.about-header{
+    padding:0 200px;
+}
+.about-header p{
+    font-size:18px;
+    margin-bottom:30px;
+}
+.about-header img{
+    border-radius:50%;
+    max-width:100%;
+}
+.about-header blockquote img{
+    margin-bottom:2px;
+}
+.about-header .ceo-name{
+    font-weight:bold;
+}
+.about-footer{
+    padding:0 100px;
+    margin-top:80px;
+}
+
+/*Faq */
+.faq-contents .number{
+    padding:0 7px;
+    background:#17c8d3;
+    margin-right:10px;
+}
+.faq-heading{
+    margin-bottom:10px;
+}
+.faq-contents p{
+    color:#aaaaaa;
+    font-size:14px;
+}
+.faq-contents{
+    margin-bottom:50px;
+}
+/* Footer */
+.main-footer{
+    background:#f5f5f5;
+}
+.footer-logo a{
+    color:#000;
+    margin-bottom:50px;
+}
+.footer-social-links li  a{
+    margin-right:15px;
+    height:36px;
+    width:36px;
+    font-size:16px;
+    display:inline-block;
+    line-height:36px;
+    border-radius:50%;
+    background:#dedede;
+    color:#333;
+}
+.footer-social-links li:last-child a{
+    margin-right:0;
+}
+.footer-nav li a{
+    color:#333;
+    margin-right:25px;
+    font-size:14px;
+    margin-top:20px;
+    display:inline-block;
+}
+.footer-bottom{
+    color:#969696;
+    font-size:14px;
+}
